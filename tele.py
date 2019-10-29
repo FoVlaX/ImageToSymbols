@@ -14,7 +14,7 @@ def handle(msg):
         bot.sendPhoto(chat_id,open('file'+str(count)+'result.jpg', 'rb'))
         count += 1
 
-basic_auth = ('fovlaxcorpA9', 'D8r5KdS')
+basic_auth = ('ops', 'ops')
 SetProxy = telepot.api.set_proxy("https://191.101.148.35:34512", basic_auth)
 bot = telepot.Bot('your token')
 
