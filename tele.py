@@ -16,7 +16,7 @@ def handle(msg):
 
 basic_auth = ('fovlaxcorpA9', 'D8r5KdS')
 SetProxy = telepot.api.set_proxy("https://191.101.148.35:34512", basic_auth)
-bot = telepot.Bot('985081018:AAHm2N1iQjUasHXsIVGv1AUL8aLrl-MpNd4')
+bot = telepot.Bot('your token')
 
 MessageLoop(bot, handle).run_as_thread()
 
